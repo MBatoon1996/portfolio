@@ -1,0 +1,22 @@
+.logo img {
+  max-height: 100px;
+  max-width: 100%;
+}
+
+.nav-link {
+  color: #212121;
+  font-size: 22px;
+  padding: 0 0 2px !important;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #bbded6;
+  text-decoration: none;
+  border-bottom: #bbded6 solid 1px;
+}
+
+.nav-selected {
+  color: #bbded6;
+  border-bottom: #bbded6 solid 1px;
+}
