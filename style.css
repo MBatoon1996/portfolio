@@ -1,4 +1,5 @@
-.logo img {
+.logo img,
+.logo {
   max-height: 100px;
   max-width: 100%;
 }
@@ -19,4 +20,37 @@
 .nav-selected {
   color: #bbded6;
   border-bottom: #bbded6 solid 1px;
+}
+
+#xsNavbar {
+  background-color: #eee;
+}
+
+nav {
+  padding: 0 !important;
+  z-index: 1;
+}
+
+#mobile-nav-label {
+  color: black;
+  font-weight: 500;
+}
+
+#navbarMenu {
+  top: 47px;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+#navbarMenu li {
+  font-weight: 500;
+  border-bottom: 1px solid #ccc;
+  padding: 1em 0;
+}
+
+#navbarMenu li a {
+  text-decoration: none;
+  color: #212121;
+  padding-left: 5em;
+  padding-right: 5em;
 }
