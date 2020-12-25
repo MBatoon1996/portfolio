@@ -56,6 +56,39 @@ nav {
 }
 
 /* Contact */
-#contactContainer {
-  max-width: 1200px;
+@media (min-width: 1200px) {
+  #contactContainer {
+    max-width: 1200px;
+  }
+}
+
+.username a {
+  color: #61c0bf;
+}
+
+.username a:hover {
+  color: #bbded6 !important;
+}
+
+
+.socials i.fa-envelope {
+  font-size: 18px;
+  color:white;
+  padding: 4px;
+  background-color: #171717;
+}
+
+.socials i.fa-instagram {
+  font-size: 18px;
+  color:white;
+  padding: 4px;
+  background-color: #cd486b;
+}
+
+.socials i.fa-envelope:hover {
+  opacity: 0.8;
+}
+
+.socials i.fa-instagram:hover {
+  opacity: 0.8;
 }
