@@ -28,7 +28,7 @@
 
 nav {
   padding: 0 !important;
-  z-index: 1;
+  z-index: 3;
 }
 
 #mobile-nav-label {
@@ -91,4 +91,64 @@ nav {
 
 .socials i.fa-instagram:hover {
   opacity: 0.8;
+}
+
+/* About Me Section */
+
+@media (max-width: 576px) {
+  #aboutMe {
+    width: 100%;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 991px) {
+  #meVid video {
+    max-width: 80%;
+  }
+}
+
+#meVid video {
+  max-width: 100%;
+  margin-left: 5%;
+}
+
+#aboutMe {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  left: -20px;
+  top: 150px;
+  width: 80%;
+}
+
+#aboutMe p {
+  font-size: 13px;
+}
+
+#aboutMe h2 {
+  font-size: 24px;
+}
+
+@media (min-width: 767px) {
+  #aboutMe {
+    top: 200px;
+    left: -30px;
+  }
+
+  #aboutMe p {
+    font-size: 15px;
+  }
+
+  #aboutMe h2 {
+    font-size: 32px;
+  }
+}
+
+@media (min-width: 991px) {
+  #aboutMe {
+    top: 20px;
+  }
 }
