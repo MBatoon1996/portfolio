@@ -76,7 +76,7 @@ nav {
   font-size: 18px;
   color:white;
   padding: 4px;
-  background-color: #171717;
+  background-color: #7dbbe6;
 }
 
 .socials i.fa-instagram {
@@ -86,11 +86,22 @@ nav {
   background-color: #cd486b;
 }
 
+.socials i.fa-github {
+  font-size: 18px;
+  color:white;
+  padding: 4px;
+  background-color: #171717;
+}
+
 .socials i.fa-envelope:hover {
   opacity: 0.8;
 }
 
 .socials i.fa-instagram:hover {
+  opacity: 0.8;
+}
+
+.socials i.fa-github:hover {
   opacity: 0.8;
 }
 
