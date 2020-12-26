@@ -210,3 +210,37 @@ nav {
     top: 20px;
   }
 }
+
+/* footer */
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 3em;
+}
+
+@media (max-width: 768px) {
+  .copyright-contract {
+    padding-top: 10em;
+  }
+}
+
+@media (min-width: 769px) {
+  .copyright-contact {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+}
+
+
+
+@media (min-width: 769px) {
+  .copyright {
+  justify-content: flex-start;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  }
+}
+
+
