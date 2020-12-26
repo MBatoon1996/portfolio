@@ -1,3 +1,4 @@
+/* Nav */
 .logo img,
 .logo {
   max-height: 100px;
@@ -91,6 +92,52 @@ nav {
 
 .socials i.fa-instagram:hover {
   opacity: 0.8;
+}
+
+/* Portfolio */
+.portfolio {
+  display: flex;
+  padding-top: 2em;
+  flex-direction: column;
+}
+
+.portfolio img {
+  max-width: 100%;
+}
+
+.portfolio img:hover {
+  border: #212121 solid 1px;
+}
+
+@media (max-width: 576px) {
+  #portfolio-container.container-fluid {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+.portfolio-desc h3 {
+  padding-top: 0.5em;
+}
+
+.portfolio-desc p {
+  max-width: 100%;
+}
+
+@media (min-width: 577px) {
+  .portfolio-desc p {
+    max-width: 50%;
+  }
+}
+
+#wizkids a,
+#wizkids h3 {
+  color: #598fbf !important;
+}
+
+#breakers a,
+#breakers h3 {
+  color: #20b2aa !important;
 }
 
 /* About Me Section */
